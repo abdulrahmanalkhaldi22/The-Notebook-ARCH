@@ -1,0 +1,67 @@
+.shell {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shell-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px;
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.shell-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-paper);
+  text-decoration: none;
+}
+
+.shell-brand-mark {
+  color: var(--color-brass-light);
+}
+
+.shell-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.shell-nav a {
+  text-decoration: none;
+  color: var(--color-paper-dim);
+}
+
+.shell-nav a:hover {
+  color: var(--color-paper);
+}
+
+.shell-signout {
+  background: none;
+  border: 1px solid rgba(237, 234, 225, 0.3);
+  color: var(--color-paper-dim);
+  padding: 7px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+}
+
+.shell-signout:hover {
+  border-color: var(--color-brass-light);
+  color: var(--color-paper);
+}
+
+.shell-main {
+  flex: 1;
+  padding: 40px 32px 60px;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
